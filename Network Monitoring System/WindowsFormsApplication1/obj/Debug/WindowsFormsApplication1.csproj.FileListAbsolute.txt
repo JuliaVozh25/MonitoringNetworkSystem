@@ -12,15 +12,14 @@ C:\Users\Acer\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debu
 C:\Users\Acer\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Structure.resources
 C:\Users\Acer\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Statistics.resources
 C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
-C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
-C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
 C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
 C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
-C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
-C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
-C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.UserNetworkParametres.resources
-C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
 C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormSystem.resources
 C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MessageForm.resources
+C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.StatisticForm.resources
 C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.StructureFrom.resources
+C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.UserNetworkParametres.resources
+C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Acer\Desktop\Network Monitoring System\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

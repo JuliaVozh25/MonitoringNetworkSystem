@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Acer\Desktop\Network Monitoring System\Test\bin\Debug\Test.dll" total="26" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-12-26" time="02:07:01">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8745" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\Acer\Desktop\Network Monitoring System\Test\bin\Debug" machine-name="JULIA-PC" user="Acer" user-domain="JULIA-PC" />
+  <culture-info current-culture="ru-RU" current-uiculture="ru-RU" />
+  <test-suite type="Assembly" name="C:\Users\Acer\Desktop\Network Monitoring System\Test\bin\Debug\Test.dll" executed="True" result="Success" success="True" time="0.114" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Test" executed="True" result="Success" success="True" time="0.113" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="DeviceRepositoryTesting" executed="True" result="Success" success="True" time="0.006" asserts="0">
+            <results>
+              <test-case name="Test.DeviceRepositoryTesting.TestCreateDeviceRepository" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+              <test-case name="Test.DeviceRepositoryTesting.TestGetStructure" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="DeviceTesting" executed="True" result="Success" success="True" time="0.005" asserts="0">
+            <results>
+              <test-case name="Test.DeviceTesting.TestCreateDevice" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+              <test-case name="Test.DeviceTesting.TestTypeDevice" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="NetworkMonitoringSystemTesting" executed="True" result="Success" success="True" time="0.012" asserts="0">
+            <results>
+              <test-case name="Test.NetworkMonitoringSystemTesting.TestNetworkDevice" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="Test.NetworkMonitoringSystemTesting.TestSendMessagePackage" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="Test.NetworkMonitoringSystemTesting.TestStructure" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+              <test-case name="Test.NetworkMonitoringSystemTesting.TestUserParametrs" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="NetworkTesting" executed="True" result="Success" success="True" time="0.019" asserts="0">
+            <results>
+              <test-case name="Test.NetworkTesting.TestCreateNetwork" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+              <test-case name="Test.NetworkTesting.TestGetAllDevice" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+              <test-case name="Test.NetworkTesting.TestGetLocalDevice" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="Test.NetworkTesting.TestGetNetworkDevice" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+              <test-case name="Test.NetworkTesting.TestSendPackage" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="PackageTesting" executed="True" result="Success" success="True" time="0.009" asserts="0">
+            <results>
+              <test-case name="Test.PackageTesting.TestCreatePackage" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+              <test-case name="Test.PackageTesting.TestIpAddr" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+              <test-case name="Test.PackageTesting.TestToString" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="ParametresTesting" executed="True" result="Success" success="True" time="0.008" asserts="0">
+            <results>
+              <test-case name="Test.ParametresTesting.TestCreateStatisticList" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="Test.ParametresTesting.TestRegistrObserveble" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="Test.ParametresTesting.TestStopTradeObservable" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="TestQuery" executed="True" result="Success" success="True" time="0.024" asserts="0">
+            <results>
+              <test-case name="Test.TestQuery.TestCreateDestQuery" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+              <test-case name="Test.TestQuery.TestCreateIPQuery" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+              <test-case name="Test.TestQuery.TestCreateProtocolQuery" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+              <test-case name="Test.TestQuery.TestCreateSourceQuery" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+              <test-case name="Test.TestQuery.TestCreateTypeQuery" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+              <test-case name="Test.TestQuery.TestQueryDevice" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+              <test-case name="Test.TestQuery.TestQueryParametres" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

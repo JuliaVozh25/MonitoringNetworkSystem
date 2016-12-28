@@ -24,8 +24,8 @@ namespace WindowsFormsApplication1
     }                                                          
     public class StatisticList : IObserver
     {
-        List<Parametres> Statistic;
-        IObservable ObserverbleNetwork;
+        public List<Parametres> Statistic;
+        public IObservable ObserverbleNetwork;
         public StatisticList(IObservable obs)
         {
             this.Statistic = new List<Parametres>();

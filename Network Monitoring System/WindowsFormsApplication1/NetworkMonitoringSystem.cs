@@ -20,25 +20,25 @@ namespace WindowsFormsApplication1
         {
             return Net.GetAllDevice();
         }
-        public LocalDevice GetUserNetworkParametres()
+        public Device GetUserNetworkParametres()
         {
             return Net.GetLocalDevice();
         }
-        public List<NetworkDevice> GetNetworkDevice()
+        public List<Device> GetNetworkDevice()
         {
             return Net.GetNetworkDevice();
         }
-        public int SendMessage(Device source, Device dest, string message)
+        public int SendMessagePackage(Device source, Device dest, string message)
         {
-            MessageFactory factory = new MessageFactory();
-            Package package = factory.CreatePackage(source.IP, dest.IP, message);
+            PackageFactory factory = new PackageFactory();
+            Package package = factory.CreateMessagePackage(source.IP, dest.IP, message);
             Net.SendPackage(package);
             return Net.ReceivePackage(package);
         }
-        public int SendPing(Device source, Device dest, string message)
+        public int SendPingPackage(Device source, Device dest, string message)
         {
-            PingFactory factory = new PingFactory();
-            Package package = factory.CreatePackage(source.IP, dest.IP, message);
+            PackageFactory factory = new PackageFactory();
+            Package package = factory.CreatePingPackage(source.IP, dest.IP, message);
             Net.SendPackage(package);
             return Net.ReceivePackage(package);
         }

@@ -18,8 +18,8 @@ namespace WindowsFormsApplication1
     }
     public class Network : IObservable
     {
-        public static List<Device> Devices;
-        List<IObserver> Observers;
+        public List<Device> Devices;
+        public List<IObserver> Observers;
         public Network()
         {
             Devices = new List<Device>();
@@ -47,16 +47,18 @@ namespace WindowsFormsApplication1
         {
             return Devices;
         }
-        public List<NetworkDevice> GetNetworkDevice()
+        public List<Device> GetNetworkDevice()
         {
-            List<NetworkDevice> netdevices=new List<NetworkDevice>();
-            foreach (var netdevice in Devices.Where(item => item.GetType() == typeof(NetworkDevice)))
-                netdevices.Add((NetworkDevice)netdevice);
+            List<Device> netdevices=new List<Device>();
+            Device.DeviceType type = Device.DeviceType.NetworkDevice;
+            foreach (var netdevice in Devices.Where(item => item.deviceType == type))
+                netdevices.Add(netdevice);
             return netdevices;
         }
-        public LocalDevice GetLocalDevice()
+        public Device GetLocalDevice()
         {
-            return (LocalDevice)Devices.Find(item => item.GetType() == typeof(LocalDevice));
+            Device.DeviceType type = Device.DeviceType.LocalDevice;
+            return Devices.Find(item => item.deviceType == type);
         } 
         public int SendPackage(Package package)
         {

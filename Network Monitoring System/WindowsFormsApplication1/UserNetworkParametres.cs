@@ -20,7 +20,7 @@ namespace WindowsFormsApplication1
         }
         private void UserNetworkParametres_Load(object sender, EventArgs e)
         {
-            LocalDevice local = monitoringsystem.GetUserNetworkParametres();
+            Device local = monitoringsystem.GetUserNetworkParametres();
             textBox1.Text = local.Type;
             textBox2.Text = local.Name;
             textBox3.Text = local.IP;

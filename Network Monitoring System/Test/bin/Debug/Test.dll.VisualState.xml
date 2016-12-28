@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1008]Test.NetworkMonitoringSystemTesting.TestUserParametrs</TopNode>
+  <SelectedNode>[0-1033]C:\Users\Acer\Desktop\Network Monitoring System\Test\bin\Debug\Test.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1033]C:\Users\Acer\Desktop\Network Monitoring System\Test\bin\Debug\Test.dll" Expanded="true" />
+    <Node UniqueName="[0-1034]Test" Expanded="true" />
+    <Node UniqueName="[0-1014]Test.DeviceRepositoryTesting" Expanded="true" />
+    <Node UniqueName="[0-1011]Test.DeviceTesting" Expanded="true" />
+    <Node UniqueName="[0-1006]Test.NetworkMonitoringSystemTesting" Expanded="true" />
+    <Node UniqueName="[0-1000]Test.NetworkTesting" Expanded="true" />
+    <Node UniqueName="[0-1021]Test.PackageTesting" Expanded="true" />
+    <Node UniqueName="[0-1017]Test.ParametresTesting" Expanded="true" />
+    <Node UniqueName="[0-1025]Test.TestQuery" Expanded="true" />
+  </Nodes>
+</VisualState>

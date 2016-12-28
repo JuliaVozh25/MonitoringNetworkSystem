@@ -13,7 +13,7 @@ namespace WindowsFormsApplication1
     public partial class MessageForm : Form
     {
         NetworkMonitoringSystem MonitoringSystem;
-        LocalDevice local;
+        Device local;
         public MessageForm(NetworkMonitoringSystem monitoringsystem)
         {
             InitializeComponent();
@@ -21,7 +21,7 @@ namespace WindowsFormsApplication1
         }
         private void Message_Load(object sender, EventArgs e)
         {
-            List<NetworkDevice> netdevices = MonitoringSystem.GetNetworkDevice();
+            List<Device> netdevices = MonitoringSystem.GetNetworkDevice();
             local = MonitoringSystem.GetUserNetworkParametres();
             comboBox1.DataSource = netdevices;
         }
@@ -29,9 +29,9 @@ namespace WindowsFormsApplication1
         {
             int time;
             if (radioButton1.Checked==true)
-                time = MonitoringSystem.SendPing(local, comboBox1.SelectedItem as NetworkDevice, "");
+                time = MonitoringSystem.SendPingPackage(local, comboBox1.SelectedItem as NetworkDevice, "");
             else
-                time = MonitoringSystem.SendMessage(local, comboBox1.SelectedItem as NetworkDevice, textBox1.Text);
+                time = MonitoringSystem.SendMessagePackage(local, comboBox1.SelectedItem as NetworkDevice, textBox1.Text);
             if (time > 0)
                 textBox2.Text = "Узел доступен. Пакет доставлен";
             else

@@ -6,20 +6,18 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1
 {
-    abstract class AbstractFactory
+    public abstract class AbstractFactory
     {
-        public abstract Package CreatePackage(string sourceaddr, string destaddr, string message);
+        public abstract Package CreatePingPackage(string sourceaddr, string destaddr, string message);
+        public abstract Package CreateMessagePackage(string sourceaddr, string destaddr, string message);
     }
-    class PingFactory : AbstractFactory
+    public class PackageFactory : AbstractFactory
     {
-        public override Package CreatePackage(string sourceaddr, string destaddr, string message)
+        public override Package CreatePingPackage(string sourceaddr, string destaddr, string message)
         {
             return new PingPackage(sourceaddr, destaddr, message);
         }
-    }
-    class MessageFactory : AbstractFactory
-    {
-        public override Package CreatePackage(string sourceaddr, string destaddr, string message)
+        public override Package CreateMessagePackage(string sourceaddr, string destaddr, string message)
         {
             return new MessagePackage(sourceaddr, destaddr, message);
         }
@@ -36,7 +34,7 @@ namespace WindowsFormsApplication1
             this.Message = message;
         }
     }
-    class PingPackage : Package
+    public class PingPackage : Package
     {
         public PingPackage(string sourceaddr, string destaddr, string message) : base(sourceaddr, destaddr, message) { }
         public override string ToString()
@@ -44,7 +42,7 @@ namespace WindowsFormsApplication1
             return "ICMP";
         }
     }
-    class MessagePackage : Package
+    public class MessagePackage : Package
     {
         public MessagePackage(string sourceaddr, string destaddr, string message) : base(sourceaddr, destaddr, message) { }
         public override string ToString()
